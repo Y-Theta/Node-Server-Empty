@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        //"outDir": "./dist/",
+        //"outFile": "./out/modules/RectPlayer.js",
+        "allowJs": true,
+        "removeComments": false,
+        "sourceMap": false,
+        "strict": true,
+        "strictNullChecks": false,
+        "suppressImplicitAnyIndexErrors": true,
+        "strictFunctionTypes": true,
+        "esModuleInterop": true,
+        //"importHelpers": true,
+        "noEmitHelpers": true,
+        "target": "esnext"
+    },
+    "include": [
+        "./src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
